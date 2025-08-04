@@ -1,69 +1,54 @@
-# Find Lite - 网页上的快速查找工具
+# Find Lite - A Fast Search Tool on Webpages
 
-[For English](./README.en.md)
+Find Lite is a convenient and easy-to-use Chrome extension that helps you quickly search for text content on webpages. Specifically, this plugin supports the following features:
 
-Find Lite 是一款方便、易用的Chrome扩展程序。它可以帮助你快速在网页上查找文本内容。特别地，这个插件支持以下功能：
+- Case sensitive search
+- Whole word matching
+- Regular expression support
+- Highlight matched results
+- Global preview, where you can directly view all matched results on the right side of the page.
 
-- 支持区分大小写
-- 支持全字匹配
-- 支持使用正则表达式
-- 支持高亮显示匹配结果
-- 支持全局概览，可以直接在页面右侧查看所有匹配结果
+## Why Choose Find Lite
 
-## 为什么选择 Find Lite
+The built-in page search function in Chrome is not powerful enough and cannot even differentiate case sensitivity, making it inconvenient to use.
 
-Chrome 官方自带页面搜索功能不够强大，甚至无法区分大小写，使用起来不够方便。
+As a result, people have specifically written plugins such as Find+ and Regex Find, but after trying them, the following drawbacks were found:
 
-为此，有人专门写了诸如 Find+、 Regex Find 等插件，体验之后，发现如下缺点：
+- The search boxes are all implemented using popup pages. Because of the characteristics of popups, they automatically close when focus is lost, leading to a fragmented user experience.
+- The highlighting of search results generally uses the method of `<span>` + `background-color`, which can cause changes in the page layout, affecting the normal use of other software or plugins.
+- Search results cannot be globally previewed, and users have to look through them one by one.
 
-- 搜索框均使用 popup 页面，因为 popup 的特性，失去焦点后会自动关闭，用户体验存在割裂感。
-- 搜索结果高亮普遍采用 `<span>` + `background-color` 的方式，这种方式会导致页面布局发生变化。影响其他软件或插件的正常使用。
-- 搜索结果无法全局概览，用户需要在搜索结果中逐个查看。
+Therefore, I wrote this plugin to solve these problems.
 
-因此，我写了这个插件，希望能够解决以上问题。
+The goal of Find Lite is to enhance Chrome's built-in search function and make it as similar to the experience as possible. Compared to other plugins, it removes impractical features and is therefore "Lite".
 
-Find Lite 的目标，是对 Chrome 自带搜索功能的增强，尽可能做到类似体验。同时相比其他插件，去除不实用的功能，相较而言是 "Lite"
-的。
+In Find Lite, there is no need for any additional settings. The process for all operations is the same: call out with shortcuts - search - exit.
 
-在 Find Lite 中，不需要任何额外设置，快捷键呼出 - 搜索 - 退出，是一切操作的流程。
+## Installation
 
-## 安装方式
+You can quickly install this plugin by opening the Chrome Web Store in your Chrome browser and searching for "Find Lite".
 
-你可以通过在Chrome浏览器中打开Chrome网上应用店，并搜索“Find Lite”，来快速安装这个插件。
+Alternatively, you can click [here](https://chrome.google.com/webstore/detail/find-lite/ndjgjgjgjgjgjgjgjgjgjgjgj) to install it directly.
 
-或者你也可以直接点击[这里](https://chrome.google.com/webstore/detail/find-lite/ndjgjgjgjgjgjgjgjgjgjgjgj)进行安装。
+## How to Use
 
-## 使用方法
+After installation, there is no need for any additional settings. All operations are almost the same as Chrome's built-in search function:
 
-安装插件后，点击扩展图标进行快捷键设置，然后即可使用：
+- `Ctrl+Shift+F`(Windows) or `Command+Shift+F`(Mac) to call out the search box.
+- Enter the search content and press `Enter` to start searching.
+- Press `Enter` again to cycle through the search results.
+- Press `Shift+Enter` to cycle through the search results in reverse order.
+- Press `Esc` to exit the search.
 
-- **快捷键呼出搜索框**（可在设置中自定义）
-  - 默认：`Ctrl+Shift+F` （Windows）或 `Command+Shift+F` （Mac）
-  - 可选：`Ctrl+Alt+F`、`Alt+Shift+F`、`Ctrl+Shift+G`、`Ctrl+K` 等
-  - 支持自定义快捷键组合
-- 输入搜索内容，按下 `Enter` 键开始搜索
-- 再次按下 `Enter` 键，可以在搜索结果中循环查找
-- `Shift+Enter` 键，可以在搜索结果中反向循环查找
-- `Esc` 键，退出搜索
+> Tips
+> - After selecting text, pressing `Ctrl+Shift+F`(Windows) or `Command+Shift+F`(Mac) lets you use the selected text as the search content, and the selected text will be highlighted and focused as the first matched result.
+> - All search results will be highlighted, but only one result is the current one, and the style will be further highlighted. I call this highlighting focus.
+> - The logic for selecting the first highlighted focus: select the result closest to the center of the viewport, and if there are multiple results, select the one that is closest to the top. If there are no results in the viewport, select the first result.
 
-### 快捷键设置
+## Preview
 
-1. 点击扩展图标打开设置面板
-2. 在"快捷键设置"中选择预设快捷键或自定义
-3. 使用"测试快捷键"功能检查是否存在冲突
-4. 可启用"多快捷键支持"同时使用多个快捷键
-
-> 小tips
-> - 选中文本后按快捷键可以直接将选中文本作为搜索内容
-> - 插件会自动检测快捷键冲突并提供解决方案
-> - 所有设置会自动保存，下次使用时生效
-> - 所有搜索结果将被高亮，但只有一个结果是当前结果，样式上会进一步高亮，我称之为高亮聚焦
-> - 选择第一个高亮聚焦的逻辑：选择最靠近视窗中心的结果，如果有多个结果，选择最靠上的结果；如果视窗中没有结果，则选择第一个结果
-
-## 使用预览
-
-![img.png](doc/preview.png)
+![img.png](doc/preview.en.png)
 
 ## Contribution
 
-如果发现bug，请提交issue。如果有好的建议，欢迎提交pull request。
+If you find a bug, please submit an issue. If you have any good suggestions, please submit a pull request.

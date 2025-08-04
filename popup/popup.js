@@ -284,7 +284,85 @@ class ShortcutManager {
     }
 }
 
-// 初始化
+// Language translations
+const translations = {
+    en: {
+        'shortcut-settings': 'Shortcut Settings',
+        'select-shortcut': 'Select Shortcut',
+        'ctrl-shift-f': 'Ctrl+Shift+F (Recommended)',
+        'custom-shortcut': 'Custom Shortcut',
+        'detecting': 'Detecting...',
+        'test': 'Test',
+        'clear': 'Clear',
+        'custom-placeholder': 'Press your desired key combination',
+        'custom-help': 'Press a key combination with modifier keys, e.g. Ctrl+J',
+        'current-shortcut': 'Current Shortcut',
+        'usage-instructions': 'Usage Instructions',
+        'shortcut-key': 'Shortcut',
+        'open-search': 'Open search box',
+        'next-result': 'Next result',
+        'prev-result': 'Previous result',
+        'close-search': 'Close search'
+    },
+    zh: {
+        'shortcut-settings': '快捷键设置',
+        'select-shortcut': '选择快捷键',
+        'ctrl-shift-f': 'Ctrl+Shift+F (推荐)',
+        'custom-shortcut': '自定义快捷键',
+        'detecting': '检测中...',
+        'test': '测试',
+        'clear': '清除',
+        'custom-placeholder': '按下您想要的快捷键组合',
+        'custom-help': '按下包含修饰键的组合键，例如 Ctrl+J',
+        'current-shortcut': '当前快捷键',
+        'usage-instructions': '使用说明',
+        'shortcut-key': '快捷键',
+        'open-search': '呼出搜索框',
+        'next-result': '下一个结果',
+        'prev-result': '上一个结果',
+        'close-search': '关闭搜索'
+    }
+};
+
+// Initialize popup
 document.addEventListener('DOMContentLoaded', () => {
+    // Load saved language preference
+    chrome.storage.sync.get(['language'], function(result) {
+        const language = result.language || 'en';
+        document.getElementById('language-select').value = language;
+        setLanguage(language);
+    });
+
+    // Language selector event
+    document.getElementById('language-select').addEventListener('change', function() {
+        const selectedLanguage = this.value;
+        setLanguage(selectedLanguage);
+        
+        // Save language preference
+        chrome.storage.sync.set({ language: selectedLanguage });
+    });
+
+    // 初始化
     const shortcutManager = new ShortcutManager();
 });
+
+// Set language function
+function setLanguage(lang) {
+    document.documentElement.lang = lang;
+    
+    // Update all elements with data-i18n attribute
+    document.querySelectorAll('[data-i18n]').forEach(element => {
+        const key = element.getAttribute('data-i18n');
+        if (translations[lang] && translations[lang][key]) {
+            element.textContent = translations[lang][key];
+        }
+    });
+
+    // Update placeholder texts
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(element => {
+        const key = element.getAttribute('data-i18n-placeholder');
+        if (translations[lang] && translations[lang][key]) {
+            element.placeholder = translations[lang][key];
+        }
+    });
+}
