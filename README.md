@@ -24,6 +24,8 @@ The goal of Find Lite is to enhance Chrome's built-in search function and make i
 
 In Find Lite, there is no need for any additional settings. The process for all operations is the same: call out with shortcuts - search - exit.
 
+In Find Lite, you can configure whether search shortcuts are disabled when typing in text input fields. By default, shortcuts are blocked in text inputs to prevent interference with normal typing. This can be adjusted in the extension settings.
+
 ## Installation
 
 You can quickly install this plugin by opening the Chrome Web Store in your Chrome browser and searching for "Find Lite".

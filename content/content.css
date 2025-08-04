@@ -1,75 +1,75 @@
 :root {
-    --find-lite-container-color: rgba(255, 255, 255, 0.9);
+	--find-lite-container-color: rgba(255, 255, 255, 0.9);
 
-    --find-lite-search-field-container-color: rgb(84 88 93);
-    --find-lite-search-info-color: rgb(60 60 60);
+	--find-lite-search-field-container-color: rgb(84 88 93);
+	--find-lite-search-info-color: rgb(60 60 60);
 
-    --find-lite-switcher-container-button-bg-color: rgb(255 255 255);
-    --find-lite-switcher-container-button-color: rgb(178 184 187);
-    --find-lite-switcher-container-button-hover-bg-color: rgb(215 215 215);
-    --find-lite-switcher-container-button-hover-color: rgb(120 131 137);
-    --find-lite-switcher-container-button-active-bg-color: rgb(215 215 215);
-    --find-lite-switcher-container-button-active-color: rgb(54 167 216);
-    --find-lite-switcher-container-button-disable-bg-color: rgb(255 255 255);
-    --find-lite-switcher-container-button-disable-color: rgb(222 222 222);
-    --find-lite-switcher-container-border-color: rgb(222 222 222);
+	--find-lite-switcher-container-button-bg-color: rgb(255 255 255);
+	--find-lite-switcher-container-button-color: rgb(178 184 187);
+	--find-lite-switcher-container-button-hover-bg-color: rgb(215 215 215);
+	--find-lite-switcher-container-button-hover-color: rgb(120 131 137);
+	--find-lite-switcher-container-button-active-bg-color: rgb(215 215 215);
+	--find-lite-switcher-container-button-active-color: rgb(54 167 216);
+	--find-lite-switcher-container-button-disable-bg-color: rgb(255 255 255);
+	--find-lite-switcher-container-button-disable-color: rgb(222 222 222);
+	--find-lite-switcher-container-border-color: rgb(222 222 222);
 
-    --find-lite-search-control-container-button-bg-color: rgb(255 255 255);
-    --find-lite-search-control-container-button-hover-bg-color: rgb(231 231 231);
-    --find-lite-search-control-container-button-disable-bg-color: white;
+	--find-lite-search-control-container-button-bg-color: rgb(255 255 255);
+	--find-lite-search-control-container-button-hover-bg-color: rgb(231 231 231);
+	--find-lite-search-control-container-button-disable-bg-color: white;
 
-    --find-lite-search-control-container-previous-disable-bg-image: url("icons/up-light.png");
-    --find-lite-search-control-container-previous-enable-bg-image: url("icons/up-dark.png");
-    --find-lite-search-control-container-next-disable-bg-image: url("icons/down-light.png");
-    --find-lite-search-control-container-next-enable-bg-image: url("icons/down-dark.png");
-    --find-lite-search-control-container-exist-bg-image: url("icons/exit.png");
+	--find-lite-search-control-container-previous-disable-bg-image: url("icons/up-light.png");
+	--find-lite-search-control-container-previous-enable-bg-image: url("icons/up-dark.png");
+	--find-lite-search-control-container-next-disable-bg-image: url("icons/down-light.png");
+	--find-lite-search-control-container-next-enable-bg-image: url("icons/down-dark.png");
+	--find-lite-search-control-container-exist-bg-image: url("icons/exit.png");
 
-    --find-lite-sidebar-left-border-color: #ddd;
-    --find-lite-sidebar-bg-color: rgba(255, 255, 255, 0.5);
-    --find-lite-sidebar-line-bg-color: orange;
+	--find-lite-sidebar-left-border-color: #ddd;
+	--find-lite-sidebar-bg-color: rgba(255, 255, 255, 0.5);
+	--find-lite-sidebar-line-bg-color: orange;
 
-    --highlight-search-result-bg-color: rgb(255 255 11);
-    --highlight-search-result-color: rgb(2 2 2);
-    --highlight-search-result-focus-bg-color: rgb(253 131 39);
-    --highlight-search-result-focus-color: rgb(2 2 2);
+	--highlight-search-result-bg-color: rgb(255 255 11);
+	--highlight-search-result-color: rgb(2 2 2);
+	--highlight-search-result-focus-bg-color: rgb(253 131 39);
+	--highlight-search-result-focus-color: rgb(2 2 2);
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
-        --find-lite-container-color: rgba(19, 19, 19, 0.9);
+	:root {
+		--find-lite-container-color: rgba(19, 19, 19, 0.9);
 
-        --find-lite-search-field-container-color: rgb(222, 222, 222);
-        --find-lite-search-info-color: rgb(222 222 222);
+		--find-lite-search-field-container-color: rgb(222, 222, 222);
+		--find-lite-search-info-color: rgb(222 222 222);
 
-        --find-lite-switcher-container-button-bg-color: rgb(19, 19, 19);
-        --find-lite-switcher-container-button-color: rgb(222 222 222);
-        --find-lite-switcher-container-button-hover-bg-color: rgb(110 110 110);
-        --find-lite-switcher-container-button-hover-color: rgb(222 222 222);
-        --find-lite-switcher-container-button-active-bg-color: rgb(43 74 157);
-        --find-lite-switcher-container-button-active-color: rgb(222 222 222);
-        --find-lite-switcher-container-button-disable-bg-color: rgb(23 24 26);
-        --find-lite-switcher-container-button-disable-color: rgb(120 120 120);
-        --find-lite-switcher-container-border-color: rgb(120 120 120);
+		--find-lite-switcher-container-button-bg-color: rgb(19, 19, 19);
+		--find-lite-switcher-container-button-color: rgb(222 222 222);
+		--find-lite-switcher-container-button-hover-bg-color: rgb(110 110 110);
+		--find-lite-switcher-container-button-hover-color: rgb(222 222 222);
+		--find-lite-switcher-container-button-active-bg-color: rgb(43 74 157);
+		--find-lite-switcher-container-button-active-color: rgb(222 222 222);
+		--find-lite-switcher-container-button-disable-bg-color: rgb(23 24 26);
+		--find-lite-switcher-container-button-disable-color: rgb(120 120 120);
+		--find-lite-switcher-container-border-color: rgb(120 120 120);
 
-        --find-lite-search-control-container-button-bg-color: rgb(80 80 80);
-        --find-lite-search-control-container-button-hover-bg-color: rgb(110 110 110);
-        --find-lite-search-control-container-button-disable-bg-color: rgb(50 50 50);
+		--find-lite-search-control-container-button-bg-color: rgb(80 80 80);
+		--find-lite-search-control-container-button-hover-bg-color: rgb(110 110 110);
+		--find-lite-search-control-container-button-disable-bg-color: rgb(50 50 50);
 
-        --find-lite-search-control-container-previous-disable-bg-image: url("icons/up-light.png");
-        --find-lite-search-control-container-previous-enable-bg-image: url("icons/up-white.png");
-        --find-lite-search-control-container-next-disable-bg-image: url("icons/down-light.png");
-        --find-lite-search-control-container-next-enable-bg-image: url("icons/down-white.png");
-        --find-lite-search-control-container-exist-bg-image: url("icons/exit-white.png");
+		--find-lite-search-control-container-previous-disable-bg-image: url("icons/up-light.png");
+		--find-lite-search-control-container-previous-enable-bg-image: url("icons/up-white.png");
+		--find-lite-search-control-container-next-disable-bg-image: url("icons/down-light.png");
+		--find-lite-search-control-container-next-enable-bg-image: url("icons/down-white.png");
+		--find-lite-search-control-container-exist-bg-image: url("icons/exit-white.png");
 
-        --find-lite-sidebar-left-border-color: rgb(80 80 80);
-        --find-lite-sidebar-bg-color: rgba(19, 19, 19, 0.5);
-        --find-lite-sidebar-line-bg-color: orange;
+		--find-lite-sidebar-left-border-color: rgb(80 80 80);
+		--find-lite-sidebar-bg-color: rgba(19, 19, 19, 0.5);
+		--find-lite-sidebar-line-bg-color: orange;
 
-        --highlight-search-result-bg-color: rgb(255 255 11);
-        --highlight-search-result-color: rgb(2 2 2);
-        --highlight-search-result-focus-bg-color: rgb(253 131 39);
-        --highlight-search-result-focus-color: rgb(2 2 2);
-    }
+		--highlight-search-result-bg-color: rgb(255 255 11);
+		--highlight-search-result-color: rgb(2 2 2);
+		--highlight-search-result-focus-bg-color: rgb(253 131 39);
+		--highlight-search-result-focus-color: rgb(2 2 2);
+	}
 }
 
 /* 重置所有Find Lite相关元素，防止宿主页面CSS干扰 */
@@ -77,336 +77,348 @@ html body #find-lite-container,
 html body #find-lite-container *,
 html body #find-lite-sidebar,
 html body #find-lite-sidebar * {
-    /* all: unset !important; */
-    box-sizing: border-box !important;
+	/* all: unset !important; */
+	box-sizing: border-box !important;
 }
 
 /* 主容器样式 */
 html body #find-lite-container {
-    position: fixed !important;
-    top: -100px !important;
-    right: 20px !important;
-    padding: 4px 10px !important;
-    margin: 0 !important;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) !important;
-    border-radius: 10px !important;
-    border: none !important;
-    background-color: var(--find-lite-container-color) !important;
+	position: fixed !important;
+	top: -100px !important;
+	right: 20px !important;
+	padding: 4px 10px !important;
+	margin: 0 !important;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) !important;
+	border-radius: 10px !important;
+	border: none !important;
+	background-color: var(--find-lite-container-color) !important;
 
-    display: flex !important;
-    flex-direction: row !important;
-    flex-wrap: nowrap !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-    z-index: 999999 !important;
+	display: flex !important;
+	flex-direction: row !important;
+	flex-wrap: nowrap !important;
+	justify-content: space-between !important;
+	align-items: center !important;
+	z-index: 999999 !important;
 
-    font-family: Arial, Helvetica, sans-serif !important;
-    font-size: 12px !important;
-    font-weight: normal !important;
-    line-height: normal !important;
-    height: 35px !important;
-    width: auto !important;
-    min-height: 35px !important;
-    max-height: 35px !important;
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 12px !important;
+	font-weight: normal !important;
+	line-height: normal !important;
+	height: 35px !important;
+	width: auto !important;
+	min-height: 35px !important;
+	max-height: 35px !important;
 
-    transition: all 0.2s ease-in-out !important;
-    transform: none !important;
-    opacity: 1 !important;
-    visibility: visible !important;
+	transition: all 0.2s ease-in-out !important;
+	transform: none !important;
+	opacity: 1 !important;
+	visibility: visible !important;
 }
 
 html body #find-lite-container.show {
-    top: 10px !important;
+	top: 10px !important;
 }
 
 html body #find-lite-container.hide {
-    top: -100px !important;
+	top: -100px !important;
 }
 
 html body #find-lite-search-field-container {
-    color: var(--find-lite-search-field-container-color) !important;
-    display: flex !important;
-    flex-direction: row !important;
-    align-items: center !important;
-    justify-content: center !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    border: none !important;
-    background: transparent !important;
-    width: auto !important;
-    height: auto !important;
+	color: var(--find-lite-search-field-container-color) !important;
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: center !important;
+	justify-content: center !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	border: none !important;
+	background: transparent !important;
+	width: auto !important;
+	height: auto !important;
 }
 
 html body #find-lite-search-field-container #find-lite-search-field {
-    padding: 1px 2px !important;
-    margin: 0 !important;
-    border: none !important;
-    outline: none !important;
-    background: none !important;
-    max-width: 320px !important;
-    min-width: 80px !important;
-    width: auto !important;
-    height: 32px !important;
-    color: var(--find-lite-search-field-container-color) !important;
-    font-family: Arial, Helvetica, sans-serif !important;
-    font-size: 12px !important;
-    font-weight: normal !important;
-    line-height: normal !important;
-    text-align: left !important;
-    text-decoration: none !important;
-    text-transform: none !important;
-    letter-spacing: normal !important;
-    word-spacing: normal !important;
-    white-space: normal !important;
-    vertical-align: baseline !important;
-    resize: none !important;
-    box-shadow: none !important;
-    border-radius: 0 !important;
+	padding: 1px 2px !important;
+	margin: 0 !important;
+	border: none !important;
+	outline: none !important;
+	background: none !important;
+	max-width: 320px !important;
+	min-width: 80px !important;
+	width: auto !important;
+	height: 32px !important;
+	color: var(--find-lite-search-field-container-color) !important;
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 12px !important;
+	font-weight: normal !important;
+	line-height: normal !important;
+	text-align: left !important;
+	text-decoration: none !important;
+	text-transform: none !important;
+	letter-spacing: normal !important;
+	word-spacing: normal !important;
+	white-space: normal !important;
+	vertical-align: baseline !important;
+	resize: none !important;
+	box-shadow: none !important;
+	border-radius: 0 !important;
 }
 
 html body #find-lite-search-field-container #find-lite-search-info {
-    min-width: 48px !important;
-    max-width: 96px !important;
-    width: auto !important;
-    height: auto !important;
-    text-align: center !important;
-    margin: 0 5px !important;
-    padding: 0 !important;
-    cursor: default !important;
-    color: var(--find-lite-search-info-color) !important;
-    font-family: Arial, Helvetica, sans-serif !important;
-    font-size: 12px !important;
-    font-weight: normal !important;
-    line-height: normal !important;
-    text-decoration: none !important;
-    text-transform: none !important;
-    background: transparent !important;
-    border: none !important;
-    outline: none !important;
-    box-shadow: none !important;
-    display: block !important;
+	min-width: 48px !important;
+	max-width: 96px !important;
+	width: auto !important;
+	height: auto !important;
+	text-align: center !important;
+	margin: 0 5px !important;
+	padding: 0 !important;
+	cursor: default !important;
+	color: var(--find-lite-search-info-color) !important;
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 12px !important;
+	font-weight: normal !important;
+	line-height: normal !important;
+	text-decoration: none !important;
+	text-transform: none !important;
+	background: transparent !important;
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+	display: block !important;
 }
 
 html body #find-lite-switcher-container {
-    display: flex !important;
-    flex-direction: row !important;
-    align-items: center !important;
-    justify-content: center !important;
-    cursor: default !important;
-    margin: 0 2px !important;
-    padding: 0 2px !important;
-    border-left: solid 1px var(--find-lite-switcher-container-border-color) !important;
-    border-right: solid 1px var(--find-lite-switcher-container-border-color) !important;
-    border-top: none !important;
-    border-bottom: none !important;
-    background: transparent !important;
-    width: auto !important;
-    height: auto !important;
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: center !important;
+	justify-content: center !important;
+	cursor: default !important;
+	margin: 0 2px !important;
+	padding: 0 2px !important;
+	border-left: solid 1px var(--find-lite-switcher-container-border-color) !important;
+	border-right: solid 1px var(--find-lite-switcher-container-border-color) !important;
+	border-top: none !important;
+	border-bottom: none !important;
+	background: transparent !important;
+	width: auto !important;
+	height: auto !important;
 }
 
 html body #find-lite-switcher-container button {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    border: none !important;
-    border-radius: 5px !important;
-    margin: 0 1px !important;
-    padding: 0 !important;
-    min-width: 25px !important;
-    max-width: 25px !important;
-    width: 25px !important;
-    min-height: 25px !important;
-    max-height: 25px !important;
-    height: 25px !important;
-    outline: none !important;
-    -webkit-appearance: none !important;
-    -moz-appearance: none !important;
-    appearance: none !important;
-    font-weight: bold !important;
-    font-family: Arial, Helvetica, sans-serif !important;
-    font-size: 12px !important;
-    line-height: normal !important;
-    text-align: center !important;
-    text-decoration: none !important;
-    text-transform: none !important;
-    cursor: pointer !important;
-    box-shadow: none !important;
-    transform: none !important;
-    transition: all 0.1s ease !important;
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+	border: none !important;
+	border-radius: 5px !important;
+	margin: 0 1px !important;
+	padding: 0 !important;
+	min-width: 25px !important;
+	max-width: 25px !important;
+	width: 25px !important;
+	min-height: 25px !important;
+	max-height: 25px !important;
+	height: 25px !important;
+	outline: none !important;
+	-webkit-appearance: none !important;
+	-moz-appearance: none !important;
+	appearance: none !important;
+	font-weight: bold !important;
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 12px !important;
+	line-height: normal !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	text-transform: none !important;
+	cursor: pointer !important;
+	box-shadow: none !important;
+	transform: none !important;
+	transition: all 0.1s ease !important;
 
-    background-color: var(--find-lite-switcher-container-button-bg-color) !important;
-    color: var(--find-lite-switcher-container-button-color) !important;
+	background-color: var(--find-lite-switcher-container-button-bg-color) !important;
+	color: var(--find-lite-switcher-container-button-color) !important;
 }
 
 html body #find-lite-switcher-container button:hover {
-    background-color: var(--find-lite-switcher-container-button-hover-bg-color) !important;
-    color: var(--find-lite-switcher-container-button-hover-color) !important;
+	background-color: var(--find-lite-switcher-container-button-hover-bg-color) !important;
+	color: var(--find-lite-switcher-container-button-hover-color) !important;
 }
 
 html body #find-lite-switcher-container button.active {
-    background-color: var(--find-lite-switcher-container-button-active-bg-color) !important;
-    color: var(--find-lite-switcher-container-button-active-color) !important;
+	background-color: var(--find-lite-switcher-container-button-active-bg-color) !important;
+	color: var(--find-lite-switcher-container-button-active-color) !important;
 }
 
 html body #find-lite-switcher-container button:disabled {
-    background-color: var(--find-lite-switcher-container-button-disable-bg-color) !important;
-    color: var(--find-lite-switcher-container-button-disable-color) !important;
-    cursor: not-allowed !important;
+	background-color: var(--find-lite-switcher-container-button-disable-bg-color) !important;
+	color: var(--find-lite-switcher-container-button-disable-color) !important;
+	cursor: not-allowed !important;
 }
 
 html body #find-lite-search-control-container {
-    display: flex !important;
-    flex-direction: row !important;
-    align-items: center !important;
-    justify-content: center !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    border: none !important;
-    background: transparent !important;
-    width: auto !important;
-    height: auto !important;
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: center !important;
+	justify-content: center !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	border: none !important;
+	background: transparent !important;
+	width: auto !important;
+	height: auto !important;
 }
 
 html body #find-lite-search-control-container button {
-    border: none !important;
-    border-radius: 50% !important;
-    margin: 0 1px !important;
-    padding: 0 !important;
-    min-width: 25px !important;
-    max-width: 25px !important;
-    width: 25px !important;
-    min-height: 25px !important;
-    max-height: 25px !important;
-    height: 25px !important;
-    outline: none !important;
-    -webkit-appearance: none !important;
-    -moz-appearance: none !important;
-    appearance: none !important;
-    cursor: pointer !important;
-    font-family: Arial, Helvetica, sans-serif !important;
-    font-size: 12px !important;
-    line-height: normal !important;
-    text-align: center !important;
-    text-decoration: none !important;
-    text-transform: none !important;
-    box-shadow: none !important;
-    transform: none !important;
-    transition: all 0.1s ease !important;
+	border: none !important;
+	border-radius: 50% !important;
+	margin: 0 1px !important;
+	padding: 0 !important;
+	min-width: 25px !important;
+	max-width: 25px !important;
+	width: 25px !important;
+	min-height: 25px !important;
+	max-height: 25px !important;
+	height: 25px !important;
+	outline: none !important;
+	-webkit-appearance: none !important;
+	-moz-appearance: none !important;
+	appearance: none !important;
+	cursor: pointer !important;
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 12px !important;
+	line-height: normal !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	text-transform: none !important;
+	box-shadow: none !important;
+	transform: none !important;
+	transition: all 0.1s ease !important;
 
-    background-color: var(--find-lite-search-control-container-button-bg-color) !important;
-    background-repeat: no-repeat !important;
-    background-size: 50% 50% !important;
-    background-position: center center !important;
+	background-color: var(--find-lite-search-control-container-button-bg-color) !important;
+	background-repeat: no-repeat !important;
+	background-size: 50% 50% !important;
+	background-position: center center !important;
 }
 
 html body #find-lite-search-control-container button:hover {
-    background-color: var(--find-lite-search-control-container-button-hover-bg-color) !important;
+	background-color: var(
+		--find-lite-search-control-container-button-hover-bg-color
+	) !important;
 }
 
 html body #find-lite-search-control-container button:disabled {
-    background-color: var(--find-lite-search-control-container-button-disable-bg-color) !important;
-    cursor: not-allowed !important;
+	background-color: var(
+		--find-lite-search-control-container-button-disable-bg-color
+	) !important;
+	cursor: not-allowed !important;
 }
 
 html body #find-lite-search-control-container #find-lite-previous:disabled {
-    background-size: 40% 40% !important;
-    background-image: var(--find-lite-search-control-container-previous-disable-bg-image) !important;
+	background-size: 40% 40% !important;
+	background-image: var(
+		--find-lite-search-control-container-previous-disable-bg-image
+	) !important;
 }
 
 html body #find-lite-search-control-container #find-lite-previous:enabled {
-    background-size: 40% 40% !important;
-    background-image: var(--find-lite-search-control-container-previous-enable-bg-image) !important;
+	background-size: 40% 40% !important;
+	background-image: var(
+		--find-lite-search-control-container-previous-enable-bg-image
+	) !important;
 }
 
 html body #find-lite-search-control-container #find-lite-next:disabled {
-    background-size: 40% 40% !important;
-    background-image: var(--find-lite-search-control-container-next-disable-bg-image) !important;
+	background-size: 40% 40% !important;
+	background-image: var(
+		--find-lite-search-control-container-next-disable-bg-image
+	) !important;
 }
 
 html body #find-lite-search-control-container #find-lite-next:enabled {
-    background-size: 40% 40% !important;
-    background-image: var(--find-lite-search-control-container-next-enable-bg-image) !important;
+	background-size: 40% 40% !important;
+	background-image: var(
+		--find-lite-search-control-container-next-enable-bg-image
+	) !important;
 }
 
 html body #find-lite-search-control-container #find-lite-exit {
-    background-size: 40% 40% !important;
-    background-image: var(--find-lite-search-control-container-exist-bg-image) !important;
+	background-size: 40% 40% !important;
+	background-image: var(--find-lite-search-control-container-exist-bg-image) !important;
 }
 
 html body #find-lite-sidebar {
-    position: fixed !important;
-    top: 0 !important;
-    right: 0 !important;
-    bottom: 0 !important;
-    left: auto !important;
-    width: 5px !important;
-    height: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    border-left: 1px solid var(--find-lite-sidebar-left-border-color) !important;
-    border-right: none !important;
-    border-top: none !important;
-    border-bottom: none !important;
-    background-color: var(--find-lite-sidebar-bg-color) !important;
-    z-index: 999998 !important;
-    display: block !important;
-    box-shadow: none !important;
-    transform: none !important;
-    opacity: 1 !important;
-    visibility: visible !important;
+	position: fixed !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: auto !important;
+	width: 5px !important;
+	height: 100% !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	border-left: 1px solid var(--find-lite-sidebar-left-border-color) !important;
+	border-right: none !important;
+	border-top: none !important;
+	border-bottom: none !important;
+	background-color: var(--find-lite-sidebar-bg-color) !important;
+	z-index: 999998 !important;
+	display: block !important;
+	box-shadow: none !important;
+	transform: none !important;
+	opacity: 1 !important;
+	visibility: visible !important;
 }
 
 html body #find-lite-sidebar .find-lite-sidebar-line {
-    height: 2px !important;
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    background-color: var(--find-lite-sidebar-line-bg-color) !important;
-    border: 0 !important;
-    position: absolute !important;
-    display: block !important;
-    box-shadow: none !important;
-    transform: none !important;
+	height: 2px !important;
+	width: 100% !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	background-color: var(--find-lite-sidebar-line-bg-color) !important;
+	border: 0 !important;
+	position: absolute !important;
+	display: block !important;
+	box-shadow: none !important;
+	transform: none !important;
 }
 
 ::highlight(search-results) {
-    background-color: var(--highlight-search-result-bg-color);
-    color: var(--highlight-search-result-color);
+	background-color: var(--highlight-search-result-bg-color);
+	color: var(--highlight-search-result-color);
 }
 
 ::highlight(search-results-focus) {
-    background-color: var(--highlight-search-result-focus-bg-color);
-    color: var(--highlight-search-result-focus-color);
+	background-color: var(--highlight-search-result-focus-bg-color);
+	color: var(--highlight-search-result-focus-color);
 }
 
 html body #find-lite-highlight-line-x {
-    display: none;
-    position: fixed;
-    top: 200px;
-    left: 0;
-    padding: 0;
-    margin: 0;
-    height: 0;
-    width: 100vw;
-    z-index: 999998;
-    border-top: 2px orange dotted;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0;
+	display: none;
+	position: fixed;
+	top: 200px;
+	left: 0;
+	padding: 0;
+	margin: 0;
+	height: 0;
+	width: 100vw;
+	z-index: 999998;
+	border-top: 2px orange dotted;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
 }
 
 html body #find-lite-highlight-line-y {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 200px;
-    padding: 0;
-    margin: 0;
-    height: 100vw;
-    width: 0;
-    z-index: 999998;
-    border-top: 0;
-    border-left: 2px orange dotted;
-    border-right: 0;
-    border-bottom: 0;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 200px;
+	padding: 0;
+	margin: 0;
+	height: 100vw;
+	width: 0;
+	z-index: 999998;
+	border-top: 0;
+	border-left: 2px orange dotted;
+	border-right: 0;
+	border-bottom: 0;
 }

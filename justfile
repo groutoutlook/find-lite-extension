@@ -22,7 +22,7 @@ run args=default_args:
 
 alias fmt := format
 format:
-    # format plesase. could also run rfmt
+    biome format --write
 
 alias t := test
 test:
@@ -32,13 +32,11 @@ alias w := watch
 watch:
     # watch, mostly spin up an application e.g. `r r`-> read log by less/bat/ov/tailspin
 
+PACKAGE_NAME := "find-lite"
 alias dep := deploy
 deploy:
-    # deploy ...like at least commit and push to remote first.
-
-alias sk := seek
-seek:
-    # seek ...what? maybe reference to other?
+    rm -f {{PACKAGE_NAME}}.zip
+    zip -r {{PACKAGE_NAME}}.zip content background popup icons app.js manifest.jsonalias sk := seek
 
 [script]
 script:
